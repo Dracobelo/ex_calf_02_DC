@@ -15,11 +15,11 @@ class RegistroPedidoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro_pedido)
 
-        val nombreCliente = findViewById<EditText>(R.id.nombre_cliente)
-        val numeroCliente = findViewById<EditText>(R.id.numero_cliente)
-        val productos = findViewById<EditText>(R.id.productos)
-        val direccion = findViewById<EditText>(R.id.direccion)
-        val ciudad = findViewById<EditText>(R.id.ciudad)
+        val nombreCliente = findViewById<EditText>(R.id.edtNombre)
+        val numeroCliente = findViewById<EditText>(R.id.edtPhone)
+        val productos = findViewById<EditText>(R.id.edtPhone)
+        val direccion = findViewById<EditText>(R.id.edtDireccion)
+        val ciudad = findViewById<EditText>(R.id.edtCiudad)
         val btnRegistrar = findViewById<Button>(R.id.btn_registrar)
 
         btnRegistrar.setOnClickListener {

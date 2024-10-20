@@ -19,10 +19,10 @@ class DetallePedidoActivity : AppCompatActivity() {
         val direccion = intent.getStringExtra("direccionCiudad")
 
         // Asignar los datos a las vistas
-        findViewById<TextView>(R.id.nombre_cliente).text = nombreCliente
-        findViewById<TextView>(R.id.numero_cliente).text = numeroCliente
-        findViewById<TextView>(R.id.producto).text = productos
-        findViewById<TextView>(R.id.ubicacion).text = direccion
+        findViewById<TextView>(R.id.tv_nombre_cliente).text = nombreCliente
+        findViewById<TextView>(R.id.tv_numero_cliente).text = numeroCliente
+        findViewById<TextView>(R.id.tv_producto).text = productos
+        findViewById<TextView>(R.id.tv_ubicacion).text = direccion
 
 
         findViewById<ImageButton>(R.id.btn_llamar).setOnClickListener {
